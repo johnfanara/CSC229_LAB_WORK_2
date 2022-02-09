@@ -5,10 +5,10 @@ package com.mycompany.csc229_211review_lab02hw;
  * @author MoaathAlrajab
  */
 public abstract class Person {
-	
-	private String name;
-	private String address;
-	private short age;
+	//protected variables to give access to child class
+	protected String name;
+	protected String address; 
+	protected short age;
 	
 	// constructor that takes only two paras
 	public Person(String name, short age) {
